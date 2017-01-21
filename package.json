@@ -1,0 +1,32 @@
+{
+  "name": "serverless_sms_bot2",
+  "version": "1.0.0",
+  "description": "A SMS bot on AWS Lambda with Claudia.js",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region us-west-1 --api-module bot --profile tim",
+    "deploy": "claudia update --profile tim",
+    "update": "claudia update --profile tim",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcsiwula/serverless_sms_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcsiwula/serverless_sms_bot/issues"
+  },
+  "homepage": "https://github.com/tcsiwula/serverless_sms_bot#readme",
+  "devDependencies": {
+    "claudia": "^2.6.0"
+  },
+  "dependencies": {
+    "claudia-bot-builder": "^2.12.0",
+    "greeting": "^1.0.6",
+    "huh": "^2.0.1",
+    "node-fetch": "^1.6.3"
+  }
+}
