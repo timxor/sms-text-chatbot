@@ -2,6 +2,7 @@
 var botBuilder = require('claudia-bot-builder');
 var greeting = require('greeting');
 var fetch = require('node-fetch');
+var excuse = require('huh');
 
 var bot = botBuilder(function(message) {
 
@@ -17,7 +18,7 @@ var bot = botBuilder(function(message) {
                     return res.text();
         });
     } else {
-        return greeting.random() + '!';
+        return greeting.random() + '! ' + ' Crazy story... ' + excuse.get();
     }
 });
 
