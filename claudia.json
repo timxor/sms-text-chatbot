@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "serverless_sms_bot2-executor",
+    "name": "serverless_sms_bot2",
+    "region": "us-west-1"
+  },
+  "api": {
+    "id": "0qbrjt03l5",
+    "module": "bot"
+  }
+}
