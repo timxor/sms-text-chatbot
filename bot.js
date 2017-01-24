@@ -18,7 +18,7 @@ var bot = botBuilder(function(message) {
                     return res.text();
         });
     } else {
-        return greeting.random() + '! ' + ' Crazy story... ' + excuse.get();
+        return greeting.random() + '! ' + excuse.get();
     }
 });
 

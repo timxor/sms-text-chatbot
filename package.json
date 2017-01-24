@@ -6,7 +6,7 @@
   "scripts": {
     "create": "claudia create --region us-west-1 --api-module bot --profile tim",
     "deploy": "claudia update --profile tim",
-    "update": "claudia update --profile tim",
+    "update": "claudia update ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
