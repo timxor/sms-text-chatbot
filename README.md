@@ -1,5 +1,5 @@
 # serverless_sms_bot
-A SMS bot on that uses an AWS Lambda server, twillio Claudia.js
+A SMS bot on that uses an AWS Lambda server, Twilio API and Claudia.js.
 
 ## Send a sms text to 720-336-4682 
 
