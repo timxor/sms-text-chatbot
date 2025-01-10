@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/tcsiwula/serverless_sms_bot#readme",
   "devDependencies": {
-    "claudia": "^2.6.0"
+    "claudia": "^5.14.1"
   },
   "dependencies": {
     "claudia-bot-builder": "^2.12.0",
