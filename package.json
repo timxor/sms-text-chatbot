@@ -27,6 +27,6 @@
     "claudia-bot-builder": "^2.12.0",
     "greeting": "^1.0.6",
     "huh": "^2.0.1",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^3.3.2"
   }
 }
