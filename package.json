@@ -1,7 +1,7 @@
 {
-  "name": "serverless_sms_bot2",
+  "name": "sms-text-chatbot",
   "version": "1.0.0",
-  "description": "A SMS bot on AWS Lambda with Claudia.js",
+  "description": "A twilio sms text chatbot on aws lambda with claudia.js",
   "main": "index.js",
   "scripts": {
     "create": "claudia create --region us-west-1 --api-module bot",
@@ -11,22 +11,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcsiwula/serverless_sms_bot.git"
+    "url": "git+https://github.com/timxor/sms-text-chatbot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tcsiwula/serverless_sms_bot/issues"
+    "url": "https://github.com/timxor/sms-text-chatbot/issues"
   },
-  "homepage": "https://github.com/tcsiwula/serverless_sms_bot#readme",
-  "devDependencies": {
-    "claudia": "^2.6.0"
-  },
+  "homepage": "https://github.com/timxor/sms-text-chatbot#readme",
   "dependencies": {
-    "claudia-bot-builder": "^2.12.0",
+    "claudia": "^5.14.1",
+    "claudia-bot-builder": "^4.5.0",
     "greeting": "^1.0.6",
     "huh": "^2.0.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "shelljs": "^0.8.5",
+    "xml2js": "^0.6.2"
   }
 }
